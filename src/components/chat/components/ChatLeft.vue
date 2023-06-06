@@ -6,7 +6,7 @@
         <span class="icon iconfont icon-fenxiang"></span>
       </el-collapse-item>
       <el-collapse-item title="客服聊天" name="2">
-        <span class="icon iconfont icon-xiaoxi-zhihui"></span>
+        <span class="icon iconfont icon-xiaoxi-zhihui icon-active"></span>
         <span class="icon iconfont icon-sr_jingdong"></span>
         <span class="icon iconfont icon-taobao-circle-fill"></span>
         <span class="icon iconfont icon-douyin"></span>
@@ -18,6 +18,8 @@
   </div>
 </template>
 <script setup>
+import { reactive, ref } from 'vue'
+const activeNames = ref(['1','2','3'])
 </script>
 <style scoped lang="scss">
 .chat-left {

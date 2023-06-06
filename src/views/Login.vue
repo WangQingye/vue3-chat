@@ -68,6 +68,9 @@ const sumbit = async () => {
       border-bottom: 1px solid rgba(151, 151, 151, 1);
       text-align: center;
     }
+    :deep(.el-link) {
+      color: white;
+    }
     :deep(.el-form-item__label) {
       color: white;
     }
@@ -78,6 +81,7 @@ const sumbit = async () => {
       background-color: rgba(255, 255, 255, 0.27);
       .el-input__inner {
         color: white;
+        background: none !important;
       }
     }
   }
